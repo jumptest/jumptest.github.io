@@ -15,5 +15,6 @@ window.onload = function() {
     el.innerHTML = 'isWx'
   } else {
     el.innerHTML = 'isNotWx'
+    window.location.href="taobao://"
   }
 }
